@@ -6,4 +6,4 @@ import datetime
 with open("count", "r+") as f:
         content = f.read()
         if content is not None:
-                f.write("{}:{}".formate(datetime.now(), int(content) + 1))
+                f.write("{}:{}".format(datetime.now(), int(content) + 1))

@@ -5,5 +5,5 @@ import datetime
 
 with open("count", "r+") as f:
         content = f.read()
-        if count is not None:
+        if content is not None:
                 f.write("{}:{}".formate(datetime.now(), int(content) + 1))
